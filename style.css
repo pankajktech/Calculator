@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(to right, rgb(124, 38, 124), rgb(1, 1, 167));
+    z-index: -1;
+}
+
+
+.Calculator {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+}
+.cal{
+    background: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.output input{
+    width: 270px;
+    height: 40px;
+    margin: 10px 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.button button {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 60px;
+    height: 50px;
+    margin: 1px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+button:hover{
+    background: rgb(192, 181, 181);
+}
