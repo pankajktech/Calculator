@@ -5,7 +5,7 @@ body {
     padding: 0;
     height: 100vh;
     font-family: 'Ubuntu', sans-serif;
-    background: linear-gradient(to right, rgb(24, 152, 175), rgb(1, 1, 167));
+    background: linear-gradient(to right, rgb(160, 24, 175), rgb(1, 1, 167));
     z-index: -1;
 }
 
@@ -18,6 +18,13 @@ body {
     flex-direction: column;
     font-size: 40px;
 }
+.title{
+    /* background: linear-gradient(to right, black, white); */
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
 .cal{
     background: black;
     padding: 10px;
@@ -28,14 +35,17 @@ body {
     height: 40px;
     margin: 10px 0;
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 8px;
     font-size: 1.5rem;
+    font-weight: bolder;
     text-align: right;
+    
 }
 
 .button button {
     border: 2px solid black;
     border-radius: 5px;
+    font-weight: bolder;
     width: 60px;
     height: 50px;
     margin: 1px;
@@ -43,5 +53,6 @@ body {
     font-size: 1.5rem;
 }
 button:hover{
-    background: rgb(192, 181, 181);
+    background: rgb(51, 24, 24);
+    color: rgb(247, 247, 247);
 }
