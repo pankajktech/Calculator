@@ -5,7 +5,8 @@ body {
     padding: 0;
     height: 100vh;
     font-family: 'Ubuntu', sans-serif;
-    background: linear-gradient(to right, rgb(160, 24, 175), rgb(1, 1, 167));
+    /* background: linear-gradient(to right, rgb(160, 24, 175), rgb(1, 1, 167)); */
+    background-image: linear-gradient( 109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% );
     z-index: -1;
 }
 
